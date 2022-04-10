@@ -1,2 +1,2 @@
-# Learning_C-
+# Learning_C++
 Nơi bạn Việt học C++
