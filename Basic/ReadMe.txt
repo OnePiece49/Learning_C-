@@ -246,7 +246,7 @@ II. Ép kiểu rõ ràng (explicit type conversion)
                 --> phương thức của lớp cha đã bị ghi đè.
 
 
-    +, Nhưng khi sử dụng con trỏ thì việc ghi đè này không được thực thi nữa.
+        --> Nhưng khi sử dụng con trỏ thì việc ghi đè này không được thực thi nữa.
         Vd:
             (Vẫn với class như trên)
             int main()
@@ -262,7 +262,7 @@ II. Ép kiểu rõ ràng (explicit type conversion)
 
     --> Để giải quyết vấn đề này, C++ cung cấp cho chúng ta 2 từ khoá đó là virtual và override, từ khoá virtual sẽ được thêm vào phương
      thức bị ghi đè của lớp cha, từ khoá override sẽ được them vào phương thức của lớp con nhằm thể hiện nó sẽ ghi đè phương thức của lớp cha.
-
+    +, Từ khóa override có cũng được, ko có cũng được.
      Vd:    
         class people {
             protected:
@@ -309,5 +309,72 @@ II. Ép kiểu rõ ràng (explicit type conversion)
 
         --> Kết quả:  Tuoi  Truong van Huy: 25  
                 --> Đã bị ghi đè.
+
+
+IV. Vấn đề 1 hàm được thực thi nhiều lần trong kế thừa
+    Khi class B kế thừa Class A, Class C kế thừa Class A
+    --> Sau đó Class D kế thừa CLass B và C --> Dẫn đến vấn đề khi sử dụng construct ở class D thì class A được gọi 2 lần
+        --> SLide 47
+    --> Để ngăn ngừa vấn đề đó ta thêm từ khóa virtual vào trước đoạn public class A.
+    Vd:
+        class B : virtual public A {};
+        class C : virtual public A {};
+        class D : public B, C {};
+
+V. Sự mập mờ trong đa kế thừa.
+    --> Khi class C kế thừa class A và class B, mà class B và C có cùng phương thức giống nhau
+            --> Sinh ra hiện tượng mập mờ trong đa kế thừa.
+            Vd: class A {
+                    public: 
+                        void print() {
+                            cout << "I'm class A" << endl;
+                        }  
+                        void hello() {
+                            cout << "hello" << endl;
+                        }
+                };
+
+                class B {
+                    public:
+                        void print() {
+                            cout << "I'm class B " << endl;
+                        }
+                };
+
+                class C : public A, public B {
+                    
+                };
+
+                int main()
+                {
+                    C Vietpro;
+                    Vietpro.print();
+                }
+
+        --> Lỗi, ko biết sử dụng phương thức của lớp nào.
+
+    --> Để giải quyết vấn đề này, ta có 2 cách:
+            +, Cách 1: int main()
+                        {
+                            C Vietpro;
+                            Vietpro.B::print();
+                        }
+                    --> Sử dụng toán hạng phân giải phạm vi
+
+            +, Cách 2: Ghi đề phương thức, rồi sử dụng toán hạng phân giải phạm vi:
+                class C : public A, public B {
+                    public:
+                        void print() {
+                            A::print();
+                        }
+                };
+
+                int main()
+                {
+                    C Vietpro;
+                    Vietpro.print();
+                }
+            
+                --> Kết quả: "I'm class A".
 
 
