@@ -1,4 +1,4 @@
-                /********************* STL TRONG C++ *********************\
+                /********************* ALOGRITHM TRONG C++ *********************\
 
 I. Thư viện Alogrithm
     +, Thư viện algorithm trong C++ là một thư viện có sẵn được thiết kế đặc biệt để thao tác với dữ liệu mảng theo phạm vi.
@@ -95,8 +95,7 @@ trên giá trị và sẽ không tác động đến cấu trúc dữ liệu c�
     --> Phân đoạn nhóm chia hết cho 2 và ko chia hết cho 2
         --> Kết quả: 9 7 35 31 20 -6 8
 
-II. Container
-    +, Container bao gồm các cấu trúc dữ liệu: vector, array, map, set, queue, stack,....
+
 
 
     
