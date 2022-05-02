@@ -100,6 +100,16 @@
 
         VD2:    --> Chèn cả 1 
 
+        --> Chú ý: khi đã có insert một key mới mà trùng key đã có trong map, thì value biến đó không thay đổi.
+        Vd:    map<string, string> huy_ngu;
+                huy_ngu["hello"] = "long";
+                huy_ngu.insert(pair<string, string>("huy ngu", "linh ngu vl"));
+                huy_ngu.insert(pair<string, string>("huy ngu", "huy ngu vl"));
+                cout << huy_ngu["huy ngu"] << endl;
+        
+        --> Kết quả: linh ngu vl
+                --> Kết quả ko bị thay đổi sang "huy ngu vl"
+
 --> Tìm kiếm phần tử trong map()
         +, find() cho phép tìm kiếm theo key của cặp giá trị key/value
         VD:       map<int, char*> mymap;
