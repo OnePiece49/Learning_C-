@@ -2,30 +2,25 @@
 #include <vector>
 using namespace std;
 
-// int main()
-// {
-//     vector<string> Mystring{"Huy ngu", "Viet vipppro"};
-//     Mystring.pop_back();
-//     cout<< Mystring.front() << endl;
-    
-//     // Mystring.push_back("Linh ml");
-//     // for(int i = 0; i < Mystring.size(); i++) {
-//     //     cout << Mystring.at(i) << endl;
-//     // }
-// }
 
+void selection_sorting(vector<int> &vt) { 
+  int key = 0;
+  for (int i = 0; i < vt.size(); i++) {
+    key = i;
+    for (int j = i + 1; j < vt.size(); j++) {
+      if (vt.at(j) < vt.at(key)) {
+        swap(vt.at(j), vt.at(key));
+      }
+    }
+  }
+}
 
-/* test capacility and size of vector */
 int main()
 {
-    std:: vector<int> array2 = { 9, 7, 5, 3, 1 };
-        array2.reserve(20);
-    array2 = {9, 10, 15};
-    cout << array2.capacity() << " " << array2.size() << endl;
-    array2.resize(10);
-    array2.at(4) = 20;
-    for(int i = 0; i < 5; i++) {
-        cout << array2.at(i) << endl;
-    }
+  vector<int> my_array{1, 9, 2, -8, -4, 10, 58, 37, 99};
+  selection_sorting(my_array);
+  for (int i = 0; i < my_array.size(); i++) {
+    cout << my_array.at(i) << " ";
+  }
+  return 0;
 }
-//*/

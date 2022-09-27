@@ -1,0 +1,319 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Thu Aug 18 15:07:39 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR := c:/Users/admin/Desktop/My Git/Learning_OPP
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+ONEDRIVE = C:\Users\admin\OneDrive - Hanoi University of Science and Technology
+# environment
+QSYS_ROOTDIR = C:\altera\14.0\quartus\sopc_builder\bin
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\admin\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\admin\Desktop\My Git\Learning_OPP
+# environment
+PATH = D:\dowload_file\vmware\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Program Files\Git\cmd;C:\ProgramData\Oracle\Java\javapath;C:\Users\admin\.espressif;D:\dowload_file\GnuWin32\bin;C: \flexlm\LICENSE.TXT;C:\ flexlm;C:\flexlm\lic_modelsim.txt;C:\Program Files\dotnet\;D:\dowload_file\putty-linux\;D:\dowload_file\Matlab2016b\runtime\win64;D:\dowload_file\Matlab2016b\bin;D:\dowload_file\Matlab2016b\polyspace\bin;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\ZeroTier\One\;D:\dowload_file\Princexml\engine\bin;C:\Program Files\Java\jdk1.8.0_311\bin;C:\Users\admin\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python39\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Users\admin\.espressif;C:\Windows\System32;D:\dowload_file\GnuWin32\bin;C:\Users\admin\Documents\win64;C:\modeltech64_2020.4\win64;C:\flexlm;C:\flexlm\lic_modelsim.txt;C:\Users\admin\.dotnet\tools;D:\dowload_file\Serial Plot\serialplot\bin;C:\Program Files\Azure Data Studio\bin;D:\dowload_file\Princexml\engine\bin;
+# environment
+LM_LICENSE_FILE = C:\flexlm\lic_modelsim.txt
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+ZES_ENABLE_SYSMAN = 1
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VISPLORE_FREE_LOCATION = C:\Users\admin\AppData\Local\Visplore Free\Visplore\visplore.exe
+# environment
+USERPROFILE = C:\Users\admin
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SOPC_KIT_NIOS2 = C:\altera\14.0\nios2eds
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_10288_TBMMRQEXJAFLTNQF
+# environment
+COMPUTERNAME = DESKTOP-T3TO0N7
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = admin
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\admin\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-T3TO0N7
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-T3TO0N7
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_DEVICE_PIXEL_RATIO = auto
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk1.8.0_311\bin
+# environment
+ONEDRIVECOMMERCIAL = C:\Users\admin\OneDrive - Hanoi University of Science and Technology
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\admin\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 142 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\40c024692924a7e0e09c00bf44e8c2ef-1.70.2-main-sock
+# environment
+HOMEPATH = \Users\admin
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\admin\AppData\Roaming
+# environment
+TEMP = C:\Users\admin\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# environment
+IDF_TOOLS_PATH = C:\Users\admin\.espressif
+# environment
+QUARTUS_ROOTDIR = C:\altera\14.0\quartus
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 8e0a
+# environment
+MOZ_PLUGIN_PATH = C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+PT7HOME = D:\dowload_file\packe_tracer\Cisco Packet Tracer 7.2
+# environment
+VSCODE_PID = 10288
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-T3TO0N7
+# variable set hash-table stats:
+# Load=95/1024=9%, Rehash=0, Collisions=9/112=8%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C: \flexlm\LICENSE.TXT: could not be stat'd.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1635235053): 6 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/DTS/Binn/, mtime 1653472302): 4 files, no impossibilities.
+# C:\flexlm\lic_modelsim.txt (key C:/flexlm/lic_modelsim.txt, mtime 1637600540): could not be opened.
+# C:\Users\admin\AppData\Local\Programs\Python\Python39\ (key C:/Users/admin/AppData/Local/Programs/Python/Python39/, mtime 1633172869): 18 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1653472311): 14 files, no impossibilities.
+# C:\Users\admin\.espressif (key C:/Users/admin/.espressif, mtime 1634011422): 12 files, no impossibilities.
+# C:\Users\admin\AppData\Local\Microsoft\WindowsApps (key C:/Users/admin/AppData/Local/Microsoft/WindowsApps, mtime 1659581651): 15 files, no impossibilities.
+# D:\dowload_file\Matlab2016b\runtime\win64 (key D:/dowload_file/Matlab2016b/runtime/win64, mtime 1640147789): 7 files, no impossibilities.
+# . (key c:/Users/admin/Desktop/My Git/Learning_OPP, mtime 1660727628): 13 files, no impossibilities.
+# C:\Users\admin\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/admin/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1633172869): 5 files, no impossibilities.
+# C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility (key C:/Program Files (x86)/STMicroelectronics/STM32 ST-LINK Utility/ST-LINK Utility, mtime 1633433585): 12 files, no impossibilities.
+# C:\Program Files (x86)\ZeroTier\One\ (key C:/Program Files (x86)/ZeroTier/One/, mtime 1654534543): 7 files, no impossibilities.
+# C:\Users\admin\Documents\win64: could not be stat'd.
+# C:\ flexlm: could not be stat'd.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1639114822): 12 files, no impossibilities.
+# D:\dowload_file\vmware\bin\ (key D:/dowload_file/vmware/bin/, mtime 1636104811): 4 files, no impossibilities.
+# D:\dowload_file\Serial Plot\serialplot\bin (key D:/dowload_file/Serial Plot/serialplot/bin, mtime 1644676889): 3 files, no impossibilities.
+# C:\Program Files\Java\jdk1.8.0_311\bin (key C:/Program Files/Java/jdk1.8.0_311/bin, mtime 1637207550): 54 files, no impossibilities.
+# D:\dowload_file\putty-linux\ (key D:/dowload_file/putty-linux/, mtime 1639195116): 12 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# D:\dowload_file\Princexml\engine\bin (key D:/dowload_file/Princexml/engine/bin, mtime 1656302256): 4 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1637207580): 5 files, no impossibilities.
+# C:\ProgramData\Oracle\Java\javapath (key C:/ProgramData/Oracle/Java/javapath, mtime 1633093974): 5 files, no impossibilities.
+# C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin (key C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin, mtime 1633089387): 58 files, no impossibilities.
+# C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/, mtime 1653472311): 11 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1653472311): 7 files, no impossibilities.
+# C:\Program Files\Azure Data Studio\bin (key C:/Program Files/Azure Data Studio/bin, mtime 1653472990): 4 files, no impossibilities.
+# D:\dowload_file\Matlab2016b\polyspace\bin (key D:/dowload_file/Matlab2016b/polyspace/bin, mtime 1640147803): 42 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\150\DTS\Binn\ (key C:/Program Files/Microsoft SQL Server/150/DTS/Binn/, mtime 1653472327): 46 files, no impossibilities.
+# D:\dowload_file\Matlab2016b\bin (key D:/dowload_file/Matlab2016b/bin, mtime 1640147772): 20 files, no impossibilities.
+# D:\dowload_file\GnuWin32\bin (key D:/dowload_file/GnuWin32/bin, mtime 1636986437): 5 files, no impossibilities.
+# C:\modeltech64_2020.4\win64 (key C:/modeltech64_2020.4/win64, mtime 1637599572): 138 files, no impossibilities.
+# C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1660791197): 4 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1633108908): 8 files, no impossibilities.
+# C:\Windows\System32 (key C:/Windows/System32, mtime 1660207165): 2898 files, no impossibilities.
+# C:\Users\admin\.dotnet\tools: could not be stat'd.
+# C:\flexlm (key C:/flexlm, mtime 1637600960): 3 files, no impossibilities.
+
+# 3456 files, no impossibilities in 38 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# files hash-table stats:
+# Load=5/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
+
+# Finished Make data base on Thu Aug 18 15:07:39 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+
